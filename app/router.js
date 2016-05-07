@@ -7,6 +7,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('songs');
+  this.route('set-lists');
 });
 
 export default Router;
