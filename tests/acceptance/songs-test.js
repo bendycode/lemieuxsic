@@ -8,6 +8,6 @@ test('visiting /songs', function(assert) {
 
   andThen(function() {
     assert.equal(currentURL(), '/songs');
-    assert.equal(find('#title').text(), 'Lemieuxsic');
+    assert.equal(find('#logo').attr("alt"), 'Lemieuxsic');
   });
 });
