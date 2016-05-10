@@ -20,5 +20,8 @@ module.exports = function(defaults) {
   // please specify an object with the list of modules as keys
   // along with the exports of each module as its value.
 
+  // Bootstrap CSS with Superhero theme
+  app.import('vendor/bootswatch-superhero.css');
+
   return app.toTree();
 };
