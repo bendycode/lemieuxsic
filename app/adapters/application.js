@@ -1,4 +1,10 @@
-import JSONAPIAdapter from 'ember-data/adapters/json-api';
+import ActiveModelAdapter from 'active-model-adapter';
 
-export default JSONAPIAdapter.extend({
+export default ActiveModelAdapter.extend({
+  host: 'http://localhost:3000'
+  // headers: Ember.computed(function() {
+    // return {
+      // 'Content-Type': 'application/json'
+    // };
+  // }).volatile()
 });
